@@ -1,4 +1,4 @@
-GIT_Amol_Godbole_Masters_Classes
+Pet
 ================================
 
 This is a repository for small class projets and assignments associated in Masters Class at SJSU, SE.
