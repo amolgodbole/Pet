@@ -15,3 +15,7 @@ def reverse_array(arr):
 
 arr = [1,2,3,4]
 print reverse_array(arr)
+
+#@amol: Manage Space complexity
+#@amol: See if you can reverse in-place
+#@amol: HINT: A recursive function can be used to achieve this.
