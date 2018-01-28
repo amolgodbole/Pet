@@ -1,5 +1,5 @@
 Pet
 ================================
 
-This is a repository for small class projets.
+This is a repository for small practice programs projets.
 
