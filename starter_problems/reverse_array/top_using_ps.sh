@@ -1,9 +1,10 @@
 #!/bin/bash
-PID=$(prgrep -d "," PROCESS-NAME)
-OUTPUT_FILE="top-output.txt"
+PID=$(pgrep -d "," PROCESS-NAME)
+OUTPUT_FILE="top-output.csv"
 DURATION=900
 INTERVAL=0.01
 
+[[ ! -f "$OUTPUT_FILE" ]] && touch "$OUTPUT_FILE"
 # Clear the output file and add header
 echo "Timestamp,PID,Command,CPU%,Memory%" > "$OUTPUT_FILE"
 
