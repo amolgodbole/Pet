@@ -1,5 +1,5 @@
 #!/bin/bash
-PID=$(prgrep -d "," bgpd)
+PID=$(prgrep -d "," PROCESS-NAME)
 OUTPUT_FILE="top-output.txt"
 DURATION=900
 INTERVAL=0.01
