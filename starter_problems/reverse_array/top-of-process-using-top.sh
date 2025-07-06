@@ -1,5 +1,6 @@
 #!/bin/bash
-PID=<your_process_id>
+#input to the file is process name
+PID=$(prgrep -d "," $1)
 OUTPUT_FILE="top-output.csv"
 # run for 15 mins
 DURATION=900
